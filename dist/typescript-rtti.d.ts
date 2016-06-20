@@ -1,3 +1,5 @@
-export interface PropertyDescriptor {
-    name: string;
+declare module 'typescript-rtti' {
+    interface PropertyDescriptor {
+        name: string;
+    }
 }
