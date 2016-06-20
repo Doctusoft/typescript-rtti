@@ -1,0 +1,18 @@
+{
+  "name": "typescript-rtti",
+  "version": "0.0.1",
+  "dependencies": {},
+  "private": false,
+  "jspm": {
+  	"registry": "github",
+  	"jspmPackage": true,
+  	"main": "typescript-rtti",
+  	"format": "amd",
+  	"directories": {
+  		"dist": "dist"
+  	}
+  },
+  "scripts": {
+  	"dist": "npm install rimraf && rimraf dist && tsc --declaration"
+  }
+}
