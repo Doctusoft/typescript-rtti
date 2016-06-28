@@ -1,6 +1,10 @@
 declare module 'typescript-rtti' {
     export interface PropertyDescriptor {
-        name: string
-        /* some more meaningful fields are yet to follow :) */
+        name: string,
+        type: 'string' | 'number' | 'object',
+        reflect?: any,
+        constructor?: any,
+        array?: boolean,
+        enum?: boolean
     }
 }
