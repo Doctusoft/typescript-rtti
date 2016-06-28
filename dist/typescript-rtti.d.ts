@@ -1,6 +1,6 @@
 declare module 'typescript-rtti' {
     interface TypeDescriptor {
-        name: 'string' | 'number' | 'object';
+        name: 'string' | 'number' | 'object' | 'boolean';
         reflect?: any;
         constructor?: any;
         array?: boolean;
