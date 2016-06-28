@@ -6,7 +6,7 @@ declare module 'typescript-rtti' {
         constructor?: any,
         array?: boolean,
         enum?: boolean,
-        typeArguments: TypeDescriptor[]
+        typeArguments?: TypeDescriptor[]
     }
 
     export interface PropertyDescriptor {
